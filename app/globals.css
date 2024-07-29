@@ -67,3 +67,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.progress {
+  background: linear-gradient(
+    90deg,
+    #00ff99 0%,
+    #00e6cc 25%,
+    #00ccff 50%,
+    #0099ff 75%,
+    #0066ff 100%
+  );
+}
