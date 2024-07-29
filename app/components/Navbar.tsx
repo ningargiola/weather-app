@@ -6,6 +6,7 @@ import { github } from '../utils/icons';
 import { ThemeDropdown } from './ThemeDropdown/ThemeDropdown';
 import { Search } from 'lucide-react';
 import SearchDialog from './SearchDialog/SearchDialog';
+import { useGlobalContext } from '../Context/globalContext';
 
 
 
@@ -15,6 +16,9 @@ import SearchDialog from './SearchDialog/SearchDialog';
 
 function Navbar() {
   const router= useRouter();
+  const { state } = useGlobalContext();
+
+
   return (
     <div className='w-full py-4 flex items-center justify-between'>
         <div className="left"></div>
