@@ -40,7 +40,7 @@ function AirPollution() {
             className="progress"
             
         />
-        <p>Air quality is {filteredIndex?.description}.</p>
+        <p className='text-sm'>Air quality is {filteredIndex?.description}.</p>
     </div>
   );
 }

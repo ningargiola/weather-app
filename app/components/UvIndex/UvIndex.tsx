@@ -57,7 +57,7 @@ function UvIndex() {
                 <p className='text-2xl'>
                     {uvIndexMax}
                     <span className='text-sm'>
-                        {uvIndexCategory(uvIndexMax).text}
+                        ({uvIndexCategory(uvIndexMax).text})
                     </span>
                 </p>
 
