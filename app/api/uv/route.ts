@@ -1,6 +1,6 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(req: NextResponse) {
+export async function GET(req: NextRequest) {
     try {
         const lat = 32.7157;
         const lon = -117.1611;
