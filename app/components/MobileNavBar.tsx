@@ -16,7 +16,7 @@ import Link from 'next/link';
 
 
 
-function Navbar() {
+function MobileNavbar() {
   const router= useRouter();
   const { state } = useGlobalContext();
 
@@ -29,9 +29,7 @@ function Navbar() {
             <Image src="/assets/logoBlack.png" alt='' width={50} height={50} className='dark:hidden block' />
           </Link>
         </div>
-        <div className="search-container flex shrink-0 w-full gap-2 sm:w-fit">
-
-            <SearchDialog />
+        <div className="search-container flex shrink-0 w-full gap-2 w-fit">
             
             <div className="btn-group flex items-center gap-2">
                 <ThemeDropdown />
@@ -41,7 +39,7 @@ function Navbar() {
                     router.push('https://github.com/ningargiola/weather-app')
                     }}
                 >
-                {github} Source Code
+                {github}
                 </Button>
             </div>
         </div>
@@ -49,4 +47,4 @@ function Navbar() {
   )
 };
 
-export default Navbar;
+export default MobileNavbar;

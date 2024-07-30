@@ -63,9 +63,10 @@ function UvIndex() {
 
                 <UvProgress 
                     value={marginLeftPercentage}
-                    max = {12}
                     className='progress'
+                    max={12}
                 />
+                
             </div>
         </div>
         <p className='text-sm'>{uvIndexCategory(uvIndexMax).description}</p>
