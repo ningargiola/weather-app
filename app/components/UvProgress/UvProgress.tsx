@@ -23,7 +23,7 @@ const UvProgress = React.forwardRef<
       style={{ marginLeft: `(${value})` }}
     />
   </ProgressPrimitive.Root>
-));
+))
 UvProgress.displayName = ProgressPrimitive.Root.displayName
 
 export {UvProgress}; 
