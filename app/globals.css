@@ -70,11 +70,11 @@
 
 .progress {
   background: linear-gradient(
-    90deg,
-    #00ff99 0%,
-    #00e6cc 25%,
-    #00ccff 50%,
-    #0099ff 75%,
-    #0066ff 100%
+    90deg, 
+    #00ff99 0%,    /* Bright green */
+    #00ccff 25%,   /* Light blue */
+    #ff66ff 50%,   /* Light pink */
+    #ffcc00 75%,   /* Light yellow */
+    #ff3300 100%   /* Bright red */
   );
 }
