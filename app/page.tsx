@@ -11,6 +11,7 @@ import MobileNavbar from "./components/MobileNavBar";
 import FeelsLike from "./components/FeelsLike/FeelsLike";
 import Humidity from "./components/Humidity/Humidity";
 import Visibility from "./components/Visibility/Visibility";
+import Pressure from "./components/Pressure/Pressure";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
             <FeelsLike />
             <Humidity />
             <Visibility />
+            <Pressure />
           </div>
         </div>
       </div>
