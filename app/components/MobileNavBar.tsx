@@ -29,9 +29,9 @@ function MobileNavbar() {
             <Image src="/assets/logoBlack.png" alt='' width={50} height={50} className='dark:hidden block' />
           </Link>
         </div>
-        <div className="search-container flex shrink-0 w-full gap-2 w-fit">
+        <div className="search-container flex shrink-0 gap-2 ">
             
-            <div className="btn-group flex items-center gap-2">
+            <div className="btn-group flex items-center gap-2 w-fit">
                 <ThemeDropdown />
 
                 <Button className='source-code flex items-center gap-2'
