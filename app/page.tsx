@@ -8,6 +8,8 @@ import DailyForecast from "./components/DailyForecast/DailyForecast";
 import UvIndex from "./components/UvIndex/UvIndex";
 import Population from "./components/Population/Population";
 import MobileNavbar from "./components/MobileNavBar";
+import FeelsLike from "./components/FeelsLike/FeelsLike";
+import Humidity from "./components/Humidity/Humidity";
 
 export default function Home() {
   return (
@@ -30,6 +32,8 @@ export default function Home() {
             <DailyForecast />
             <UvIndex />
             <Population />
+            <FeelsLike />
+            <Humidity />
           </div>
         </div>
       </div>
