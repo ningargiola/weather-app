@@ -53,7 +53,6 @@ function Mapbox() {
     <div className="flex-1 basis-[50%] border rounded-lg">
     
       <MapContainer
-        center={[activeCityCords!.lat, activeCityCords!.lon]}
         zoom={13}
         scrollWheelZoom={false}
         className="rounded-lg m-4"
