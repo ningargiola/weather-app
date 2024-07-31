@@ -28,20 +28,6 @@ const defaultLoc = [
         lon: -117.1611
     },
     {
-        name: 'Dallas',
-        country: 'US',
-        state: 'TX',
-        lat: 32.7767,
-        lon: -96.7970
-    },
-    {
-        name: 'Austin',
-        country: 'US',
-        state: 'TX',
-        lat: 30.2672,
-        lon: -97.7431
-    },
-    {
         name: 'San Francisco',
         country: 'US',
         state: 'CA',

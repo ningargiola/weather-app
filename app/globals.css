@@ -78,3 +78,7 @@
     #ff3300 100%   /* Bright red */
   );
 }
+
+.temperature {
+  background: linear-gradient(to right, #ADD8E6, #B0C4DE, #FFB6C1, #FF6347);
+}
