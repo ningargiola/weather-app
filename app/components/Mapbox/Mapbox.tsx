@@ -14,6 +14,7 @@ type Coordinates = {
   };
 
 
+
 function FlyToActiveCity({ activeCityCords }: FlyToActiveCityProps ) {
   const map = useMap();
 
@@ -50,6 +51,7 @@ function Mapbox() {
 
   return (
     <div className="flex-1 basis-[50%] border rounded-lg">
+    
       <MapContainer
         center={[activeCityCords!.lat, activeCityCords!.lon]}
         zoom={13}
